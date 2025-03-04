@@ -60,6 +60,12 @@ export default function ConfirmAccountView() {
         >
           Solicitar un nuevo Código
         </Link>
+        <Link
+          to={"/auth/login"}
+          className="text-center text-gray-300 font-normal"
+        >
+          Iniciar Sesión
+        </Link>
       </nav>
     </>
   );
